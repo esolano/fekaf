@@ -1,0 +1,13 @@
+uuid: ed941d1b-629e-4914-8ba0-e844ccd421ac
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: c4zaT5cyPxuTXI6JOWt3qRtMvICT9tHB6d9a5VG-CmQ
+id: feedback
+label: 'Website feedback'
+recipients:
+  - admin@fekaf.org
+  - info@fekaf.org
+reply: ''
+weight: 0

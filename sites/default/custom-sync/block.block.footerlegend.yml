@@ -1,0 +1,25 @@
+uuid: 165f2ef5-c4a3-44de-9ff3-4f14b01ecdf9
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:c8500f0d-d1ab-4802-80fb-889696b31c26'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: footerlegend
+theme: bartik
+region: footer_fifth
+weight: -6
+provider: null
+plugin: 'block_content:c8500f0d-d1ab-4802-80fb-889696b31c26'
+settings:
+  id: 'block_content:c8500f0d-d1ab-4802-80fb-889696b31c26'
+  label: 'Footer Legend'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
