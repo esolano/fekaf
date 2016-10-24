@@ -27,7 +27,11 @@
     float: right;
   }
 }
-
+@media screen and (max-width: 460px) {
+  .region-header {
+    padding-bottom: 0.357em;
+  }
+}
 /* Region header blocks. */
 .region-header .block:not(.site-branding) {
   font-size: 0.857em;
@@ -193,8 +197,4 @@
 [dir="rtl"] .region-header #block-user-login .form-item,
 [dir="rtl"] .region-header #block-user-login .item-list li {
   float: right;
-}
-
-.site-branding__logo img {
-  width: 100px
 }

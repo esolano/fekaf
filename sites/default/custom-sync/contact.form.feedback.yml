@@ -11,3 +11,5 @@ recipients:
   - info@fekaf.org
 reply: ''
 weight: 0
+message: 'Your message has been sent.'
+redirect: ''
